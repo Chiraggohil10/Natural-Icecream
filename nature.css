@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.sec1{
+    background-image: url('./Banner1.jpg');
+    height: 750px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: #00000025;
+    font-size: 19px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: bolder;
+    position: fixed;
+}
+.sec2{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+li>a{
+    text-decoration: none;
+    color:white;
+    margin-left: 40px;
+}
+
+.sec3{
+    background-image: url('./Thancos.jpg');
+    height: 730px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.contain{
+    height: 387px;
+    width: 320px;
+    font-family: 'Satisfy', cursive;
+    display: block;
+    margin-left: 210px;
+    position: relative;
+    top: 70px;
+}
+
+.logoo{
+    position: relative;
+    left: 140px;
+}
+.peraaaa{
+    line-height: 1.7em;
+    font-size: 22px;
+}
+
+#contain{
+    height: 340px;
+    width: 320px;
+    font-family: 'Satisfy', cursive;
+    display: block;
+    position: relative;
+    left: 1020px;
+    bottom: 320px;
+}
+
+#peraaaa{
+    line-height: 1.7em;
+    font-size: 22px;
+}
+.imgtag{
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+
+.space{
+    height: 170px;
+}
+
+.cdback{
+    background-image: url('https://www.thancosnatural.com/wp-content/uploads/2017/12/Thancos-Web-Flav-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 730px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 180px;
+}
+
+.backimg1{
+    background-image: url('https://www.thancosnatural.com/wp-content/uploads/2017/12/Flavours.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 320px;
+    height: 594px;
+    padding-top: 120px;
+    padding-right: 10px;
+    padding-bottom: 150px;
+    padding-left: 10px
+}
+.backimg2{
+    background-image: url('https://www.thancosnatural.com/wp-content/uploads/2017/12/Stores.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 320px;
+    height: 594px;
+    padding-top: 120px;
+    padding-right: 10px;
+    padding-bottom: 205px;
+    padding-left: 10px
+}
+.backimg3{
+    background-image: url('https://www.thancosnatural.com/wp-content/uploads/2017/12/Franchise.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 320px;
+    height: 594px;
+    padding-top: 98px;
+    padding-right: 10px;
+    padding-bottom: 135px;
+    padding-left: 10px
+}
+
+.text1{
+    font-family: 'Satisfy', cursive;
+    color: white;
+    text-align: center;
+}
+em{
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.span{
+    font-size: 21px;
+    line-height: 1.7em;
+}
+
+.flavor{
+    background-image: url('https://www.thancosnatural.com/wp-content/uploads/2017/12/Thancos-Web-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 540px;
+    padding: 0px 180px;
+    padding-bottom: 35px;
+}
+
+.flavtext h1{
+    font-size: 26px;
+    font-family: 'Satisfy', cursive;
+    color: white;
+    padding-top: 20px;
+    font-weight: 400;
+}
+
+form input{
+    width: 1150px;
+    height: 50px;
+    background-color: inherit;
+    border: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 20px 0px;
+    outline: none;
+    color: white;
+}
+form textarea{
+    background-color: inherit;
+    border: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 20px 0px;
+    outline: none;
+    width: 1150px;
+    height: 150px;
+    color: white;
+}
+::placeholder{
+    color: white;
+    padding: 0px 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+textarea::placeholder{
+    padding-top: 10px;
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+}
+
+.btun button{
+    padding: 6px 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #edf000;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    border: 1px solid #edf000;
+    border-radius: 5px;
+    height: 50px;
+    width: 120px;
+    margin: 20px 0px;
+    position: relative;
+    left: 1030px;
+}
+
+footer{
+    background-color: #222222;
+    height: 331px;
+    font-family:'Satisfy', cursive;
+    font-size: 21px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 180px;
+    color: white;
+    padding-top: 60px;
+    line-height: 1.9em;
+}
+
+.cdp1 h4{
+    color: #7cda24;
+    font-size: 18px;
+}
+
+.footer2{
+    background-color: #171515;
+    height: 65px;
+    padding: 0px 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.latter>p{
+    font-size: 21px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: lighter;
+    color: #666666;
+}
+
+.footericonss a{
+    margin-left: 15px;
+}
